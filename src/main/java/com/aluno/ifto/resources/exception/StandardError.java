@@ -2,7 +2,7 @@ package com.aluno.ifto.resources.exception;
 
 import java.io.Serializable;
 
-public class StandarError implements Serializable {	
+public class StandardError implements Serializable {	
 	 
 	private static final long serialVersionUID = 1L;  
 	
@@ -12,11 +12,11 @@ public class StandarError implements Serializable {
 	 private String message;
 	 private String path;
 	 
-	 public StandarError() {
+	 public StandardError() {
 		 
 	 }
 
-	public StandarError(Long timestamp, Integer status, String error, String message, String path) {
+	public StandardError(Long timestamp, Integer status, String error, String message, String path) {
 		super();
 		this.timestamp = timestamp;
 		this.status = status;
