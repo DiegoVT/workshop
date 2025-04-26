@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import com.aluno.ifto.domain.Post;
 import com.aluno.ifto.domain.User;
 import com.aluno.ifto.dto.UserDTO;
 import com.aluno.ifto.services.UserService;
@@ -40,31 +41,35 @@ public class UserResource {
 		return ResponseEntity.ok().body(new UserDTO(obj));
 
 	}
-	
+
 	@PostMapping
-	public ResponseEntity<Void> insert(@RequestBody UserDTO objDto){
+	public ResponseEntity<Void> insert(@RequestBody UserDTO objDto) {
 		User obj = service.fromDTO(objDto);
 		obj = service.insert(obj);
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(obj.getId()).toUri();
 		return ResponseEntity.created(uri).build();
 	}
-	
+
 	@DeleteMapping("/{id}")
 	public ResponseEntity<Void> delete(@PathVariable String id) {
 		service.delete(id);
 		return ResponseEntity.noContent().build();
 
 	}
-	
+
 	@PutMapping("/{id}")
-	public ResponseEntity<Void> update(@RequestBody UserDTO objDto, @PathVariable String id ){
+	public ResponseEntity<Void> update(@RequestBody UserDTO objDto, @PathVariable String id) {
 		User obj = service.fromDTO(objDto);
 		obj.setId(id);
 		obj = service.update(obj);
 		return ResponseEntity.noContent().build();
-		
+
 	}
-	
-	
+
+	@GetMapping("/{id}/posts")
+	public ResponseEntity<List<Post>> findPosts(@PathVariable String id) {
+		User obj = service.findById(id);
+		return ResponseEntity.ok().body(obj.getPosts());
+	}
 
 }
