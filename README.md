@@ -4,8 +4,8 @@
 
 ## 📚 Descrição
 
-Projeto desenvolvido em Java utilizando **Spring Boot** e **MongoDB**, com foco na criação de uma API REST para gerenciar usuários, posts e comentários.  
-O sistema realiza operações de CRUD, pesquisas por título de posts e buscas filtradas por intervalo de datas.
+Projeto desenvolvido em **Java** utilizando **Spring Boot** e **MongoDB**, com foco na criação de uma API REST para gerenciar usuários, posts e comentários.  
+O sistema realiza operações de **CRUD**, pesquisas por título de posts e buscas filtradas por intervalo de datas.
 A aplicação expõe Web Services (REST APIs) para consumo de dados, implementando funcionalidades como:
 
 - **Cadastro de usuários**
