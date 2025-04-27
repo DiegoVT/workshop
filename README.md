@@ -29,7 +29,7 @@ A aplicação expõe Web Services (REST APIs) para consumo de dados, implementan
 - Postman (testes de API)
 
 ## 🏛️ Estrutura do Projeto
-
+```bash
 com.aluno.ifto\
 ├── config '''               # *Instanciação de dados iniciais*\
 ├── domain                # *Entidades (User, Post)*\
@@ -40,7 +40,7 @@ com.aluno.ifto\
 ├── services              # *Regras de negócio*\
 ├── services.exception    # *Exceções customizadas*\
 ├── util                  # *Utilitários (manipulação de URL e datas)*\
-
+```
 
 ## 🔗 Endpoints Principais
 ### Usuários
