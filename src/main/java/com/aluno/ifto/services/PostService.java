@@ -1,5 +1,6 @@
 package com.aluno.ifto.services;
 
+import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,15 +16,19 @@ public class PostService {
 	@Autowired
 	private PostRepository repo;
 
-
-	
 	public Post findById(String id) {
-	    return repo.findById(id)
-	        .orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado"));
+		return repo.findById(id).orElseThrow(() -> new ObjectNotFoundException("Objeto não encontrado"));
 	}
-	public List<Post> findByTitle(String text){
+
+	public List<Post> findByTitle(String text) {
 		return repo.findByTitle(text);
 		// return repo.findByTitleContainingIgnoreCase(text);
+	}
+
+	public List<Post> fullSearch(String text, Date minDate, Date maxDate) {
+		maxDate = new Date(maxDate.getTime() + 24 * 60 * 60 * 1000);
+		return repo.fullSearch(text, minDate, maxDate);
+
 	}
 
 }
