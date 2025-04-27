@@ -121,8 +121,10 @@ http://localhost:8085
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **[Diego, Fernando e Uriel]**  
-[🔗 LinkedIn](https://git clone https://github.com/seu-usuario/workshop.git/) | [🐙 GitHub]([https://github.com/](https://github.com/DiegoVT))
+Desenvolvido por **Diego, Fernando e Uriel**  
+[🔗 LinkedIn - Diego](https://www.linkedin.com/in/seu-linkedin-diego) | [🔗 LinkedIn - Fernando](https://www.linkedin.com/in/seu-linkedin-fernando) | [🔗 LinkedIn - Uriel](https://www.linkedin.com/in/seu-linkedin-uriel)  
+[🐙 GitHub - Diego](https://github.com/DiegoVT)
+
 
 ---
 
