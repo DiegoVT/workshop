@@ -20,13 +20,13 @@ A aplicação expõe Web Services (REST APIs) para consumo de dados, implementan
 
 
 ## 🚀 Tecnologias Utilizadas
--Java 17
--Spring Boot 3.4.5
--Spring Data MongoDB
--MongoDB
--Maven
--Eclipse IDE
--Postman (testes de API)
+- Java 17
+- Spring Boot 3.4.5
+- Spring Data MongoDB
+- MongoDB
+- Maven
+- Eclipse IDE
+- Postman (testes de API)
 
 ## 🏛️ Estrutura do Projeto
 
