@@ -97,7 +97,7 @@ src/main/java/com/aluno/ifto/
 git clone https://github.com/seu-usuario/workshop.git
 
 # Acesse a pasta do projeto
-cd workshop
+git clone https://github.com/seu-usuario/workshop.git
 
 # Compile e execute a aplicação
 mvn spring-boot:run
