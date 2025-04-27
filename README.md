@@ -31,7 +31,7 @@ A aplicação expõe Web Services (REST APIs) para consumo de dados, implementan
 ## 🏛️ Estrutura do Projeto
 
 com.aluno.ifto\
-├── config                # ... Instanciação de dados iniciais\
+├── config                # (*...*) Instanciação de dados iniciais\
 ├── domain                # Entidades (User, Post)\
 ├── dto                   # Data Transfer Objects (UserDTO, PostDTO, CommentDTO)\
 ├── repository            # Interfaces de acesso a dados (MongoDB)\
