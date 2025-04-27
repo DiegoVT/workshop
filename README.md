@@ -122,7 +122,7 @@ http://localhost:8085
 ## 👨‍💻 Autor
 
 Desenvolvido por **[Diego, Fernando e Uriel]**  
-[🔗 LinkedIn](https://www.linkedin.com/) | [🐙 GitHub](https://github.com/)
+[🔗 LinkedIn](https://git clone https://github.com/seu-usuario/workshop.git/) | [🐙 GitHub](https://github.com/)
 
 ---
 
