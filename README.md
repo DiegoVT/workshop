@@ -41,6 +41,43 @@ com.aluno.ifto\
 ├── services.exception    # *Exceções customizadas*
 ├── util                  # *Utilitários (manipulação de URL e datas)*
 ```
+src/main/java/com/aluno/ifto/
+├── WorkshopApplication.java     # Classe principal de inicialização (Spring Boot Application)
+│
+├── config/
+│   └── Instantiation.java        # Popular o banco de dados com dados iniciais
+│
+├── domain/
+│   ├── Post.java                 # Entidade Post
+│   ├── User.java                 # Entidade User
+│
+├── dto/
+│   ├── AuthorDTO.java            # DTO para o autor do post
+│   ├── CommentDTO.java           # DTO para comentários
+│   └── UserDTO.java              # DTO para usuários
+│
+├── repository/
+│   ├── PostRepository.java       # Repositório de Posts (MongoRepository)
+│   └── UserRepository.java       # Repositório de Usuários (MongoRepository)
+│
+├── resources/
+│   ├── PostResource.java         # API REST para Posts
+│   └── UserResource.java         # API REST para Usuários
+│
+├── resources/exception/
+│   ├── ResourceExceptionHandler.java  # Tratamento global de exceções
+│   └── StandardError.java             # Modelo padrão de erro
+│
+├── resources/util/
+│   └── URL.java                  # Utilitário para tratamento de parâmetros de URL
+│
+├── services/
+│   ├── PostService.java          # Regras de negócio para Posts
+│   └── UserService.java          # Regras de negócio para Usuários
+│
+└── services/exception/
+    └── ObjectNotFoundException.java   # Exceção personalizada para objetos não encontrados
+
 
 ## 🔗 Endpoints Principais
 ### Usuários
