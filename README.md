@@ -8,10 +8,14 @@ Projeto desenvolvido em Java utilizando **Spring Boot** e **MongoDB**, com foco 
 O sistema realiza operações de CRUD, pesquisas por título de posts e buscas filtradas por intervalo de datas.
 A aplicação expõe Web Services (REST APIs) para consumo de dados, implementando funcionalidades como:
 
--Cadastro de usuários
+-Cadastro de usuários  
+
 -Cadastro de posts relacionados a usuários
+
 -Comentários em posts
+
 -Busca de posts por título e por intervalo de datas
+
 -Tratamento de exceções para respostas HTTP padronizadas
 
 
