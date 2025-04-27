@@ -40,7 +40,7 @@ com.aluno.ifto\
 ├── services              # *Regras de negócio*
 ├── services.exception    # *Exceções customizadas*
 ├── util                  # *Utilitários (manipulação de URL e datas)*
-```
+
 src/main/java/com/aluno/ifto/
 ├── WorkshopApplication.java     # Classe principal de inicialização (Spring Boot Application)
 │
@@ -78,7 +78,7 @@ src/main/java/com/aluno/ifto/
 └── services/exception/
     └── ObjectNotFoundException.java   # Exceção personalizada para objetos não encontrados
 
-
+```
 ## 🔗 Endpoints Principais
 ### Usuários
 - `GET /users` → Lista todos os usuários
