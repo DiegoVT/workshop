@@ -30,17 +30,6 @@ A aplicação expõe Web Services (REST APIs) para consumo de dados, implementan
 
 ## 🏛️ Estrutura do Projeto
 ```bash
-com.aluno.ifto\
-├── config                # *Instanciação de dados iniciais*
-├── domain                # *Entidades (User, Post)*
-├── dto                   # *Data Transfer Objects (UserDTO, PostDTO, CommentDTO)*
-├── repository            # *Interfaces de acesso a dados (MongoDB)*
-├── resources             # *Controllers REST (UserResource, PostResource)*
-├── resources.exception   # *Tratamento global de exceções*
-├── services              # *Regras de negócio*
-├── services.exception    # *Exceções customizadas*
-├── util                  # *Utilitários (manipulação de URL e datas)*
-
 src/main/java/com/aluno/ifto/
 ├── WorkshopApplication.java     # Classe principal de inicialização (Spring Boot Application)
 │
