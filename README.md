@@ -27,6 +27,7 @@ A aplicação Web Services (REST APIs) para consumo de dados, implementando func
 - **MongoDB Compass**
 - **Maven**
 - **Eclipse IDE**
+- **Github**
 - **Postman (testes de API)**
 
 ## 🏛️ Estrutura do Projeto
